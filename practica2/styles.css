@@ -1,0 +1,103 @@
+/* Reglas del header */
+header
+{
+    width: 100vw;
+    height: 100px;
+    color: black;
+    background-color: greenyellow;
+    position: relative;
+}
+/* Reglas de la barra de navegación */
+/* nav es colocado en el centro con respecto a la posición absoluta del header, por lo cual
+el nav queda en el centro de header */
+nav
+{
+    width: 1300px;
+    height: 40px;
+    color: black;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Reglas del aside izquierdo */
+.Aside1
+{
+    margin-top: 50px;
+    width: 100px;
+    height: 500px;
+    color: black;
+    background-color: orangered;
+
+}
+
+/* Reglas del aside derecho */
+.Aside2
+{
+    margin-left: 90vw;
+    width: 100px;
+    height: 500px;
+    color: black;
+    background-color: orangered;
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+
+}
+
+main
+{
+    margin-top: 15vh;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    color: black;
+}
+/* Articles colocados en el centro con respecto al elemento main */
+.Article-1
+{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+.Article-2
+{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.Article-3
+{
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+
+footer
+{
+    margin-top: 100px;
+    width: 100vw;
+    height: 100px;
+    color: black;
+    background-color: purple;
+}
