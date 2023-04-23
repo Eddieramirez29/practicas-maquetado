@@ -1,0 +1,91 @@
+#Head
+{
+    font-weight: bold;
+    background-position: center;
+    margin-left: 150px;
+    font-size: 25px;
+    color: gray
+}
+
+#descripción
+{
+    background-position: center;
+    margin-left: 40px;
+    font-size: 25px;
+    color: gray
+
+}
+
+#Contenido
+{
+    background-color:beige;
+    height: 100px;
+    width: 450px;
+}
+
+#lista  li
+{
+    list-style: none;
+    font-weight: bold;
+    color: gray
+}
+
+#Cambiar
+{
+    color: blue;
+    font-weight: bold;
+    margin-left: 600px;
+}
+
+#Payment-button
+{
+    background-color: rgb(19, 108, 209);
+    height: 50px;
+    width: 250px;
+    color: beige;
+    margin-left: 100px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 15px;
+}
+
+#Payment-button:hover
+{
+    background-color: rgb(114, 162, 219);
+    height: 50px;
+    width: 250px;
+    color: beige;
+    margin-left: 100px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 15px;
+
+}
+
+
+#Cancel-order
+{
+    background-color: rgb(186, 199, 214);
+    height: 50px;
+    width: 250px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 15px;
+}
+
+#Cancel-order:hover
+{
+    background-color: rgb(48, 48, 49);
+    height: 50px;
+    width: 250px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 15px;
+}
+
