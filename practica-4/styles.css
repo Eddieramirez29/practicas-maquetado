@@ -1,0 +1,264 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media only screen and (max-width: 600px)
+{
+    #mobile-design
+    {
+        height: 373px;
+        width: 375px;
+        background-color: blueviolet;
+    }
+
+    #header
+    {
+       height: 373px;
+    }
+
+    .main__container
+    {
+        height: 450px;
+        width: 375px;
+        background-color: blueviolet;  
+        position: relative;
+        top: -5px;
+    }
+
+    #illustration-mockup
+    {
+        height: 210px;
+        width: 275px;  
+        position: relative;
+        bottom: 245px;
+        left: 65px;
+    }
+
+    #huddle
+    {
+       height: 50px;
+        width: 100px; 
+        position: relative;
+        bottom: 510px;
+        left: -220px;
+    }
+
+    .main__list--text
+    {
+    color: white;
+    list-style: none;
+    position: relative;
+    font-size: 30px;
+    left: -5px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .main__list--description
+    {
+    color: white;
+    list-style: none;
+    position: relative;
+    top:15px;
+    font-size: 20px;
+    left: -5px;
+    display: flex;
+    justify-content: center;
+    }
+
+    li
+    {
+    list-style: none; 
+    }
+
+    .seccion__button--register
+    {
+        height: 35px;
+        width: 210px;
+        position: relative;
+        top: 50px;
+        left: 75px;
+        border-radius: 15px;
+        border: none   
+    }
+
+    .seccion__button--register:hover
+    {
+    height: 35px;
+    width: 210px;
+    background-color: gray;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    left: 75px;
+    border-radius: 15px;
+    border: none   
+    }
+
+    .seccion__button--social-network
+    {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    border-color: white;
+    background-color: blueviolet;
+    top: 150px;
+    left: -110px;
+    margin: 10px;  
+  
+    }
+
+    .seccion__button--social-network:hover
+    {
+        background-color: white;
+        border-color: gray;
+    }
+
+    #desktop-design
+    {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 601px)
+{
+    #desktop-design
+    {
+        height: 1200px;
+        width: 1440px;
+        background-color: blueviolet;
+        position: relative;
+        top: -509px;
+        
+    }
+
+    #header
+    {
+        height: 1200px;
+        width: 1440px;
+    
+    }
+    #mobile-design
+    {
+        display: none;
+    }
+
+    #illustration-mockup
+    {
+        height: 450px;
+        width: 620px;  
+        position: relative;
+        top: -1100px;
+        left: 85px;
+    }
+
+    #huddle
+    {
+        height: 50px;
+        width: 100px; 
+        position: relative;
+        top: -1600px;
+        left: -530px;
+    }
+
+    .main__container
+    {
+        height: 1200px;
+        width: 1440px;
+        position: relative;
+        top: -900px;
+        left: 1000px;
+    }
+
+    li
+    {
+         list-style: none; 
+    }
+
+    .main__list--text
+    {
+        height: 30px;
+        color: white;
+        position: relative;
+        top: -150px;
+        left: -200px;
+        font-size: 40px;         
+        margin: 20px; 
+    }
+
+    .main__list--description
+    {
+        color: white;
+        position: relative;
+        top: -100px;
+        left: -200px;
+        font-size: 20px; 
+    }
+
+    .seccion__button--register
+    {
+        height: 45px;
+        width: 180px;
+        position: relative;
+        top: -90px;
+        left: -200px;
+        border-radius: 25px;
+        border: none;
+        font-size: 20px; 
+        color: grey;
+
+    }
+
+    .seccion__button--register:hover
+    {
+        height: 45px;
+        width: 180px;
+        background-color: white;
+        cursor: pointer;
+        position: relative;
+        top: -90px;
+        left: -200px;
+        border-radius: 25px;
+        border: none   
+    }
+
+    .seccion__button--social-network
+    {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        position: relative;
+        border-color: white;
+        background-color: blueviolet;
+        top: 70px;
+        left: -40px;
+        margin: 10px;  
+    }
+
+    .seccion__button--social-network:hover
+    {
+        background-color: white;
+        border-color: gray;
+    }
+
+    
+
+    
+    
+}
+
+
+
+
+
+
+
